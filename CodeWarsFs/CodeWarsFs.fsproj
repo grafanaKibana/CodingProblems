@@ -22,6 +22,7 @@
         <Compile Include="Kyu7\BasicSequencePractice.fs" />
         <Compile Include="Kyu7\UnluckyDays.fs" />
         <Compile Include="Kyu7\MaximumTripletSum.fs" />
+        <Compile Include="Kyu7\GeometricProgressionSequence.fs" />
         <Compile Include="Kyu6\StopSpinningMyWords.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>

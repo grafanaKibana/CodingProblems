@@ -1,11 +1,5 @@
 ﻿
-open FsCodeWars.Kyu6
-open FsCodeWars.Kyu7
-open FsCodeWars.Kyu8
-let bin = "This is another test"
-printfn $"Result: {StopSpinningMyWords.spinWords bin}"
-
-(*BasicSequencePractice.sumOfN 5
-|> List.iter (fun x -> printf $"|{x}|")*)
+open CodeWarsFs.Kyu7
 
 
+printf $"{GeometricProgressionSequence.geometricSequenceElements 2 3 10}"

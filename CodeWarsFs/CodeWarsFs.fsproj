@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Kyu8\Clock.fs" />
+        <Compile Include="Kyu8\SumWithoutHighestAndLowestNum.fs" />
+        <Compile Include="Kyu8\MakeLowerCase.fs" />
+        <Compile Include="Kyu8\ReverseArrayRecursively.fs" />
+        <Compile Include="Kyu8\CheckForFactor.fs" />
+        <Compile Include="Kyu8\RemoveExclamationMarks.fs" />
+        <Compile Include="Kyu8\GrasshopperSummation.fs" />
+        <Compile Include="Kyu8\GrasshopperTerminalGameMoveFunction.fs" />
+        <Compile Include="Kyu8\GetNumberFromString.fs" />
+        <Compile Include="Kyu8\BinaryToDecimal.fs" />
+        <Compile Include="Kyu8\DetectingAPalindrome.fs" />
+        <Compile Include="Kyu8\ReduceButGrow(Factorial).fs" />
+        <Compile Include="Kyu8\LostWithoutMap.fs" />
+        <Compile Include="Kyu7\BasicSequencePractice.fs" />
+        <Compile Include="Kyu7\UnluckyDays.fs" />
+        <Compile Include="Kyu7\MaximumTripletSum.fs" />
+        <Compile Include="Kyu6\StopSpinningMyWords.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>

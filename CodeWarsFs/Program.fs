@@ -1,5 +1,8 @@
 ﻿
+open System.Collections
+open System.Collections.Generic
 open CodeWarsFs.Kyu7
 
+let a = "abracadabra"
 
-printf $"{GeometricProgressionSequence.geometricSequenceElements 2 3 10}"
+printf $"{OrderedCountOfCharacters.orderedCount a}"

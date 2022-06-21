@@ -5,4 +5,4 @@ open CodeWarsFs.Kyu7
 
 let a = "abracadabra"
 
-printf $"{OrderedCountOfCharacters.orderedCount a}"
+printf $"{SumOfNumbers.getSum 5 1}"

@@ -24,6 +24,7 @@
         <Compile Include="Kyu7\MaximumTripletSum.fs" />
         <Compile Include="Kyu7\GeometricProgressionSequence.fs" />
         <Compile Include="Kyu7\OrderedCountOfCharacters.fs" />
+        <Compile Include="Kyu7\SumOfNumbers.fs" />
         <Compile Include="Kyu6\StopSpinningMyWords.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>

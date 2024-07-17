@@ -1,3 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+using LeetCodeCs.ArraysAndHashing;
+
+Problem.ProductExceptSelf([1,2,3,4]);

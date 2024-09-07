@@ -1,16 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using LeetCodeCs.ArraysAndHashing;
+using ArraysAndHashing = LeetCodeCs.ArraysAndHashing.Problem;
+using TwoPointers = LeetCodeCs.TwoPointers.Problem;
 
-Console.WriteLine(Problem.IsValidSudoku([
-    ['5','3','.'    ,'.','7','.',   '.','.','.'],
-    ['6','.','.'    ,'1','9','5',   '.','.','.'],
-    ['.','9','8'    ,'.','.','.',   '.','6','.'],
+/*
+int[][] testCases =
+[
+    [100, 4, 200, 1, 3, 2],
+    [0, 3, 7, 2, 5, 8, 4, 6, 0, 1],
+    [1, 2, 0, 1],
+    [0],
+    [0, 0],
+    []
+];
 
-    ['8','.','.'    ,'.','6','.',   '.','.','3'],
-    ['4','.','.'    ,'8','.','3',   '.','.','1'],
-    ['7','.','.'    ,'.','2','.',   '.','.','6'],
+foreach (var testCase in testCases)
+{
+    Console.WriteLine(ArraysAndHashing.LongestConsecutive(testCase));
+}
+*/
 
-    ['.','6','.'    ,'.','.','.',   '2','8','.'],
-    ['.','.','.'    ,'4','1','9',   '.','.','5'],
-    ['.','.','.'    ,'.','8','.',   '.','7','9']]));
+Console.WriteLine(TwoPointers.IsPalindrome("A man, a plan, a canal: Panama"));

@@ -1,13 +1,10 @@
 namespace LeetCodeCs.ArraysAndHashing;
 
-using System.Collections;
-
 public static partial class Problem
 {
+    #region No Flattering + HashSet
     public static bool IsValidSudoku(char[][] board)
     {
-
-        #region No Flattering + HashSet
         var rows = new HashSet<char>[9];
         var cols = new HashSet<char>[9];
         var squares = new HashSet<char>[9];
@@ -58,10 +55,12 @@ public static partial class Problem
         }
 
         return true;
-        #endregion
+    }
+    #endregion
 
-        /*
-        #region No Flattening
+    /*#region No Flattening
+    public static bool IsValidSudoku(char[][] board)
+    {
 
         var rows = new Dictionary<int, HashSet<char>>
         {
@@ -101,12 +100,12 @@ public static partial class Problem
         }
 
         return true;
+    }
+    #endregion*/
 
-        #endregion
-        */
-
-        /*
-        #region Flattening + Index Math Approach
+    /*#region Flattening + Index Math Approach
+    public static bool IsValidSudoku(char[][] board)
+    {
         var flattenArray = board.SelectMany(x => x).ToList();
 
         // Check Rows
@@ -183,8 +182,7 @@ public static partial class Problem
         }
 
         return true;
-        #endregion
-        */
     }
+    #endregion*/
 }
 

@@ -2,7 +2,7 @@ namespace LeetCodeCs.TwoPointers;
 
 public static partial class Problem
 {
-    #region Single Loop + 2 Pointers
+    #region Single Loop + 2 Pointers = Fast
     public static int[] TwoSum(int[] numbers, int target)
     {
         var firstIdx = 0;
@@ -26,7 +26,7 @@ public static partial class Problem
     #endregion
 
 
-    /*#region Recursion Approach (OutOfMemory <3)
+    /*#region Recursion Approach But OutOfMemory <3
     public static int[] TwoSum(int[] numbers, int target)
     {
         return Recursion(numbers);
@@ -43,7 +43,7 @@ public static partial class Problem
     }
     #endregion*/
 
-    /*#region Single Loop (no)
+    /*#region Single Loop But Still Slow
     public static int[] TwoSum(int[] numbers, int target)
     {
         if (numbers.Length <= 2)

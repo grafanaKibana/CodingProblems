@@ -21,4 +21,7 @@ foreach (var testCase in testCases)
 */
 
 //Console.WriteLine(ArraysAndHashing.LongestConsecutive([100,4,200,1,3,2]));
-Console.WriteLine(ArraysAndHashing.LongestConsecutive([4,0,-4,-2,2,5,2,0,-8,-8,-8,-8,-1,7,4,5,5,-4,6,6,-3]));
+foreach (var i in TwoPointers.TwoSum([2,7,11,15], 9))
+{
+    Console.WriteLine(i);
+}

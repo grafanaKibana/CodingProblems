@@ -2,7 +2,6 @@ namespace LeetCodeCs.TwoPointers;
 
 public static partial class Problem
 {
-
     #region Recursive Approach #1 (Uses a lot of memory because of substring)
     public static bool IsPalindrome(string s) {
         s = string.Concat(Array.FindAll(s.ToCharArray(), char.IsLetterOrDigit)).ToLowerInvariant();

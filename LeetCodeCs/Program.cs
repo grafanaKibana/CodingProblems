@@ -3,7 +3,20 @@
 using ArraysAndHashing = LeetCodeCs.ArraysAndHashing.Problem;
 using TwoPointers = LeetCodeCs.TwoPointers.Problem;
 
-foreach (var i in TwoPointers.ThreeSum([0,0,0,0]))
+
+
+var cases = new List<(int result, int expected)>
 {
-    Console.Write($"[{string.Join(',', i)}]");
-}
+    (TwoPointers.MaxArea([1,0,0,0,0,0,0,2,2]), 8),
+    (TwoPointers.MaxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]), 49),
+    (TwoPointers.MaxArea([1,1]), 1),
+    (TwoPointers.MaxArea([2,3,4,5,18,17,6]), 17)
+};
+
+cases.ForEach(x =>
+{
+    Console.WriteLine($"Case; Expected: {x.expected}; Actual: {x.result}; Result: {x.result == x.expected}");
+});
+
+
+

@@ -1,4 +1,4 @@
-namespace LeetCodeCs.ArraysAndHashing;
+namespace LeetCodeCs.SlidingWindow;
 
 public static partial class Problem
 {

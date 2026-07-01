@@ -1,4 +1,4 @@
-namespace LeetCodeCs.TwoPointers;
+namespace LeetCodeCs._1DDynamicProgramming;
 
 public static partial class Problem
 {
